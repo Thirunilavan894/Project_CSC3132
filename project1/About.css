@@ -1,0 +1,48 @@
+
+body, h1, p, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    background: url('image4.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.content {
+    text-align: center;
+    background-color: #e8fcd0ea;
+    padding: 60px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+}
+
+
+.content h1 {
+    font-size: 2.5em;
+    color: #2c126ee8;
+    margin-bottom: 20px;
+}
+
+
+.content .par {
+    font-size: 1.3em;
+    line-height: 1.6;
+    color: #555;
+}
+
+
