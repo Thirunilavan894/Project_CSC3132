@@ -104,3 +104,19 @@ input:focus, textarea:focus {
 .contact-btn:hover {
     background-color: #cba6a9;
 }
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
