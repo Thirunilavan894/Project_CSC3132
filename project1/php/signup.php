@@ -80,19 +80,19 @@
             $result = $connect->query($sql);
 
             if ($result) {
-                 header('Location: ../Aboutbutton.html');
+                header("Location: ../AboutHome.html");
             }
             else {
                 echo "Error: Register Fails.! " . $sql . "<br>" . $connect->error;
             }
-            
+
             $connect->close();
         } 
     ?>
     <form action="<?php echo $_SERVER["PHP_SELF"]; ?>" method="post">
         Username: <input type="text" name="username"><br>
         Password: <input type="password" name="password"><br>
-        <input type="submit" value="Register" name="register">
+        <input type="submit" value="Register" name="register" >
     </form>
     <a href="login.php" class="login-link">Already have an account? Login</a>
 </body>
